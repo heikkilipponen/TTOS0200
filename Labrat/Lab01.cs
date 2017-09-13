@@ -198,6 +198,42 @@ namespace Labrat
         }
       
 
+        public static void tehtava9()
+        //Tee ohjelma, joka kysyy käyttäjältä lukuja, kunnes hän syöttää luvun 0. Ohjelman tulee tulostaa syötettyjen lukujen summa. 
+        {
+            int luku;
+            int summa = 0;
+
+            do
+            {
+                Console.WriteLine("Anna luku: ");
+                luku = int.Parse(Console.ReadLine());
+                summa += luku;
+            } while (luku != 0);
+
+            Console.WriteLine("Lukujen summa on: " + summa);
+            Console.ReadLine();
+        }
+
+
+        public static void tehtava10()
+        //Tee ohjelma, joka alustaa sovellukseen käyttöö seuraavan taulukon arvot = [1,2,33,44,55,68,77,96,100].
+        //Käy sovelluksessa taulukko läpi ja tulosta ruutuun "HEP"-sana aina kun taulukossa oleva luku on parillinen. 
+        {
+            int[] numberArray = new int[] { 1, 2, 33, 44, 55, 68, 77, 96, 100 };
+
+            for (int i = 0; i < numberArray.Length; i++)
+            {
+                if (numberArray[i] % 2 == 0)
+                {
+                    Console.WriteLine(numberArray[i] + ": HEP!");
+                }
+                else
+                    Console.WriteLine(numberArray[i]);
+            }
+            Console.ReadLine();
+        }
+
         public static void tehtava11()
         /* Tee kahden sisäkkäisen for-silmukan avulla ohjelma, joka tulostaa seuraavanlaisen kuvion:
         *
