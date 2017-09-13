@@ -32,7 +32,6 @@ namespace Labrat
             {
                 Console.WriteLine("Joku muu luku");
             }
-            Console.ReadLine();
         }
 
 
@@ -67,8 +66,6 @@ namespace Labrat
             {
                 Console.WriteLine("Koulunumero on: 5");
             }
-            
-            Console.ReadLine();
         }
 
 
@@ -93,8 +90,7 @@ namespace Labrat
 
             double keskiarvo = summa / 3;
             Console.WriteLine("Lukujen keskiarvo: " + keskiarvo);
-
-            Console.ReadLine();
+            
         }
         public static void tehtava4()
         // Tee ohjelma, jossa kysytään käyttäjältä tämän ikä. Jos ikä on alle 18 vuotta, tulosta "alaikäinen",
@@ -115,7 +111,6 @@ namespace Labrat
             {
                 Console.WriteLine("Seniori");
             }
-            Console.ReadLine();
         }
 
 
@@ -136,7 +131,6 @@ namespace Labrat
             sekunnit = ((luku % 3600) % 60);
 
             Console.WriteLine("Antamasi sekunttiaika voidaan ilmaista muodossa: " + tunnit + (" tuntia ") + minuutit + (" minuuttia ") + sekunnit + (" sekuntia "));
-            Console.ReadLine();
         }
 
 
@@ -156,7 +150,6 @@ namespace Labrat
             kustannus = kokonaiskulutus * hinta;
 
             Console.WriteLine("Bensaa kuluu " + kokonaiskulutus + (" litraa, kustannus ") + kustannus + (" euroa"));
-            Console.ReadLine();
         }
 
         public static void tehtava7()
@@ -176,7 +169,6 @@ namespace Labrat
             {
                 Console.WriteLine("Vuosi ei ole karkausvuosi");
             }
-            Console.ReadLine();
         }
 
         public static void tehtava8()
@@ -193,8 +185,6 @@ namespace Labrat
             }
 
             Console.WriteLine("Suurin luku on " + luku2);
-
-            Console.ReadLine();
         }
       
 
@@ -212,7 +202,6 @@ namespace Labrat
             } while (luku != 0);
 
             Console.WriteLine("Lukujen summa on: " + summa);
-            Console.ReadLine();
         }
 
 
@@ -231,7 +220,6 @@ namespace Labrat
                 else
                     Console.WriteLine(numberArray[i]);
             }
-            Console.ReadLine();
         }
 
         public static void tehtava11()
@@ -257,8 +245,6 @@ namespace Labrat
                 }
                 Console.Write("\n");
             }
-
-            Console.ReadLine();
         }
     }
 }
